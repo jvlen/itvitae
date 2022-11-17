@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+}
+
+h1 {
+    color: pink;
+    position: absolute;
+    left: 80px;
+    top: 140px;
+}
+
+header, footer {
+    background-color: antiquewhite;
+    min-height: 110px;
+    text-align: center;
+    padding: 5px;
+}
+
+p {
+    margin-top: 10px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    margin: 70px;
+    border-width: 2px;
+    border-color: black;
+    border-style: dotted;
+}
+
+main {
+    display: flex;
+    background-color:floralwhite;
+    padding: 25px;
+}
+
+article {
+    width: 8000px;
+    height: 500px;
+    display: flex;
+    margin: 5px;
+    margin-top: 30px;
+}
+
+article > p {
+    text-align: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+img {
+    float: right;
+    max-height: 200px;
+    align-items: flex-end;
+    align-self: end;
+}
+
+aside {
+    background-color: pink;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-width: 2px;
+    border-color: black;
+    border-style: dotted;
+}
+
+button {
+    transition: all 1s ease-in-out;
+    background-color: aquamarine;
+    width: 60px;
+    align-self:center
+}
+
+button:hover {
+    transform: scale(5) rotate(360deg);
+    background-color: aqua;
+}
+
+section {
+    padding: 30px;
+}
+
+footer {
+    min-height: 62px;
+}
