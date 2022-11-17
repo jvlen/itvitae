@@ -1,0 +1,35 @@
+
+header {
+    font-size: 12px;
+    color:plum
+}
+
+p.p-rem {
+    font-size: 2rem;
+}
+
+p.p-em {
+    font-size: 2em;
+}
+
+.rotate {
+    transform: rotate(-45deg);
+}
+
+button {
+    transition: all 1s ease-in-out;
+    background-color: aquamarine;
+}
+
+button:hover {
+    transform: scale(1.2) rotate(360deg);
+    filter: blur(0.3px);
+    background-color: aqua;
+}
+
+.math-test {
+    width: calc(50vw + 200px);
+    height: 200px;
+    background: linear-gradient(#e66465, #912435);
+    transform: rotate(-3deg);
+}

@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.boxmodel {
+    /* min-width: 800px; */
+    display: inline-block;
+    padding: 40px 120px;
+    background-color: pink;
+    padding: 200px;
+}
+
+p {
+    background-color: bisque;
+}
+
+.container {
+    max-width: 1000px;
+    background-color: blueviolet;
+    margin: 0 auto;
+    padding: 0 10pvw;
+}
+
+.color {
+    background-color: black;
+    height: 400px;
+    width: 400px;
+    border-style: dotted;
+    border-color: red;
+    border-width: 30px;
+}
+
+button {
+    background-color: antiquewhite;
+    margin-top: 40px;
+    margin-left: 225px;
+    transition: transform 0.2s ease-in;
+}
+
+button:hover {
+    /* transform: rotate(-360deg);
+    transform: skew(70deg, 20deg); */
+    transform: translate(120px, 50%);
+    display: block;
+}
